@@ -74,6 +74,13 @@ body {
 /*  text-align: justify;*/
 }
 
+.box-xsmall-top {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  left: 0px;
+}
+
 #box-col-1 {
  top: 310px;
  background: #00a9a4;
@@ -84,19 +91,32 @@ body {
   color: #5e5e5e;
 }
 
-#box-col-2 {
+#box-col-2-1 {
  top: 130px;
  background: #f58359;
 }
 
+#box-col-2-1:hover {
+ background: #000;
+}
+
+#box-col-2-2 {
+ top: 310px;
+ background: #f58359;
+}
+
 #text-col-2 {
-  top: 180px;
+  top: 0px;
   color: #fff;
 }
 
 #box-col-3 {
  top: 130px;
  background: #f8b14b;
+}
+
+#box-col-3:hover {
+ background: #000;
 }
 
 #text-col-3 {
@@ -114,8 +134,7 @@ body {
   color: #fff;
 }
 
-
-#box-col-5 {
+#box-col-5-1 {
  top: 130px;
  background: #f58359;
 }
@@ -125,11 +144,24 @@ body {
   color: #fff;
 }
 
+#box-col-5-2 {
+ top: 310px;
+ background: #f58359;
+}
+
+#box-col-5-2:hover {
+ background: #000;
+}
 
 #box-col-6-1 {
  top: 130px;
  background: #00a9a4;
 }
+
+#box-col-6-1:hover {
+ background: #000;
+}
+
 
 #box-col-6-2 {
  top: 310px;
@@ -145,7 +177,6 @@ body {
   width: 150px;
   margin-top: 15px;
   margin-left: 15px;
-  cursor: pointer;
 }
 
 #clipboard {
@@ -166,7 +197,6 @@ body {
   width: 110px;
   margin-top: 210px;
   margin-left: 35px;
-  cursor: pointer;
 }
 
 #team {
@@ -178,8 +208,8 @@ body {
 
 #contact {
   width: 100px;
-  margin-top: 15px;
-  margin-left: 25px;
+  margin-top: 40px;
+  margin-left: 40px;
   cursor: pointer;
 }
 
