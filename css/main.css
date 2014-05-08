@@ -15,9 +15,11 @@ body {
 .container.header {
   position: relative;
   height: 67px;
-  margin-top: 20px;
-  margin-bottom: 33px;
-  left: -18px;
+  margin-bottom: 50px;
+  left: -4px;
+  -webkit-box-shadow: 0 4px 2px -2px rgba(94,94,94, 0.4);
+  -moz-box-shadow: 0 4px 2px -2px rgba(94,94,94, 0.4);
+  box-shadow: 0 4px 2px -2px rgba(94,94,94, 0.4);
 }
 
 .col-xs-2.header {
@@ -28,11 +30,13 @@ body {
 .col-xs-10.header {
   height: 57px;
   border-bottom: 5px solid #00a9a4;
-  left: 15px;
+  left: 0px;
 }
 
 .logo img {
+  position: absolute;
   width: 180px;
+  left: 0px;
 }
 
 /*Column Seperators*/
