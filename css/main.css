@@ -1,0 +1,197 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  min-width: 1080px;
+}
+
+.container {
+   width: 1080px;
+   max-width: none !important;
+}
+
+.container.header {
+  position: relative;
+  height: 67px;
+  margin-top: 20px;
+  margin-bottom: 33px;
+  left: -18px;
+}
+
+.col-xs-2.header {
+  position: relative;
+  height: 67px;
+}
+
+.col-xs-10.header {
+  height: 57px;
+  border-bottom: 5px solid #00a9a4;
+  left: 15px;
+}
+
+.logo img {
+  width: 180px;
+}
+
+/*Column Seperators*/
+#viva-col-1, #viva-col-2, #viva-col-3, #viva-col-4, #viva-col-5, #viva-col-6  {
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: -5px 0px 4px -2px rgba(94,94,94, 0.2);
+  -moz-box-shadow: -5px 0px 4px -2px rgba(94,94,94, 0.2);
+  box-shadow: -5px 0px 4px -2px rgba(94,94,94, 0.2);
+}
+
+.col-xs-2.content {
+  height: 600px;
+}
+
+.box-small {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 0px;
+}
+
+.box-big {
+  position: absolute;
+  width: 180px;
+  height: 360px;
+  left: 0px;
+}
+
+.box-text-small {
+  position: absolute;
+  padding: 10px;
+  left: 0px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+/*  text-align: justify;*/
+}
+
+#box-col-1 {
+ top: 310px;
+ background: #00a9a4;
+}
+
+#text-col-1 {
+  top:130px;
+  color: #5e5e5e;
+}
+
+#box-col-2 {
+ top: 130px;
+ background: #f58359;
+}
+
+#text-col-2 {
+  top: 180px;
+  color: #fff;
+}
+
+#box-col-3 {
+ top: 130px;
+ background: #f8b14b;
+}
+
+#text-col-3 {
+  top: 310px;
+  color: #5e5e5e;
+}
+
+#box-col-4 {
+ top: 130px;
+ background: #5e5e5e;
+}
+
+#text-col-4 {
+  top: 0px;
+  color: #fff;
+}
+
+
+#box-col-5 {
+ top: 130px;
+ background: #f58359;
+}
+
+#text-col-5 {
+  top: 0px;
+  color: #fff;
+}
+
+
+#box-col-6-1 {
+ top: 130px;
+ background: #00a9a4;
+}
+
+#box-col-6-2 {
+ top: 310px;
+ background: #fcb54e;
+}
+
+#text-col-6 {
+  top: 0px;
+  color: #fff;
+}
+
+#atom {
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#clipboard {
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#stethoscope {
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#workhard {
+  width: 110px;
+  margin-top: 210px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+#team {
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#contact {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
