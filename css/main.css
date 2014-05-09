@@ -3,8 +3,47 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+font-family: OSP-DIN;
+src: url(../fonts/OSP-DIN.ttf);
+}
+
+@font-face {
+font-family: SourceSansPro-Bold;
+src: url(../fonts/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+font-family: SourceSansPro-SemiBold;
+src: url(../fonts/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+font-family: SourceSansPro-Light;
+src: url(../fonts/SourceSansPro-Light.ttf);
+}
+
+
+
 body {
   min-width: 1080px;
+}
+
+h1 {
+  font-family: "SourceSansPro-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+
+h3 {
+  font-family: "SourceSansPro-SemiBold", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: "SourceSansPro-Light", Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 .container {
@@ -12,11 +51,16 @@ body {
    max-width: none !important;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 .container.header {
   position: relative;
-  height: 67px;
+  height: 45px;
   margin-bottom: 50px;
-  left: -4px;
+  left: -2px;
   -webkit-box-shadow: 0 4px 2px -2px rgba(94,94,94, 0.4);
   -moz-box-shadow: 0 4px 2px -2px rgba(94,94,94, 0.4);
   box-shadow: 0 4px 2px -2px rgba(94,94,94, 0.4);
@@ -24,18 +68,19 @@ body {
 
 .col-xs-2.header {
   position: relative;
-  height: 67px;
+  height: 38px;
+  border-bottom: 3px solid #00a9a4;
 }
 
 .col-xs-10.header {
-  height: 57px;
-  border-bottom: 5px solid #00a9a4;
+  height: 38px;
+  border-bottom: 3px solid #00a9a4;
   left: 0px;
 }
 
 .logo img {
   position: absolute;
-  width: 180px;
+  width: 120px;
   left: 0px;
 }
 
@@ -71,7 +116,7 @@ body {
   position: absolute;
   padding: 10px;
   left: 0px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "SourceSansPro-Light", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -167,7 +212,6 @@ body {
  background: #5e5e5e;
 }
 
-
 #box-col-6-2 {
  top: 310px;
  background: #fcb54e;
@@ -218,7 +262,75 @@ body {
   cursor: pointer;
 }
 
+/*Team Page*/
 
+.container.team {
+}
+
+#team-header {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  color:#5e5e5e;
+}
+
+#team-text {
+  text-align: center;
+  color:#5e5e5e;
+}
+
+.row-mt-sm {
+  margin-top: 40px;
+}
+
+.portraits-wrap {
+  padding: 0;
+  text-align: center;
+}
+
+.portraits {
+  width: 270px;
+  height: 378px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.hover-state {
+  padding: 0;
+  width: 270px;
+  height: 378px;
+  opacity: 0;
+  background: rgba(0,0,0,.5);
+  text-align: center;
+}
+
+.hover-state h3 {
+  padding-top: 300px;
+  margin: 0px;
+  color: #fff;
+/*  text-align: justify;*/
+}
+
+.portraits:hover > .hover-state {
+  opacity: 1;
+  transition: opacity 0.1s ease-in;
+}
+
+.rozze {
+  background-image: url('../img/portraits/rozze_sq.png');
+}
+
+.chalak {
+  background-image: url('../img/portraits/chalak_sq.png');
+}
+
+.michaela {
+  background-image: url('../img/portraits/michaela_sq.png');
+}
+
+.masud {
+  background-image: url('../img/portraits/masud_sq.png');
+}
 
 
 
