@@ -10,17 +10,17 @@ src: url(../fonts/OSP-DIN.ttf);
 
 @font-face {
 font-family: SourceSansPro-Bold;
-src: url(../fonts/SourceSansPro-Bold.ttf);
+src: url(../fonts/source-pro-sans/SourceSansPro-Bold.ttf);
 }
 
 @font-face {
 font-family: SourceSansPro-SemiBold;
-src: url(../fonts/SourceSansPro-SemiBold.ttf);
+src: url(../fonts/source-pro-sans/SourceSansPro-SemiBold.ttf);
 }
 
 @font-face {
 font-family: SourceSansPro-Light;
-src: url(../fonts/SourceSansPro-Light.ttf);
+src: url(../fonts/source-pro-sans/SourceSansPro-Light.ttf);
 }
 
 
@@ -44,6 +44,10 @@ h3 {
 p {
   font-family: "SourceSansPro-Light", Helvetica, Arial, sans-serif;
   font-size: 20px;
+}
+
+.label-color {
+  color: #5e5e5e;
 }
 
 .container {
@@ -260,6 +264,48 @@ p {
   margin-top: 40px;
   margin-left: 40px;
   cursor: pointer;
+}
+
+/*Contact Page*/
+
+#contact-header {
+  margin-bottom: 10px;
+}
+
+#contact-header h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 42px;
+  color: #5e5e5e;
+}
+
+#contact-header p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #5e5e5e;
+}
+
+.center-right {
+  float: right;
+}
+
+.contact-info {
+  padding-left: 80px;
+}
+
+.contact-info p {
+  margin: 0;
+  color: #5e5e5e;
+}
+
+.address-labels {
+  padding-top: 15px;
+  font-family: "SourceSansPro-SemiBold", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+#company-num {
+  font-size: 14px;
 }
 
 /*Team Page*/
