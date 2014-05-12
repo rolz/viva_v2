@@ -69,11 +69,22 @@ p {
   background: #fff;
 }
 
+#logo {
+  padding: 0;
+}
+
+#logo > img {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 15px;
+  height: 32px;
+}
+
 #breadcrumb-box {
   margin: 0;
-  margin-right: 38px;
+  margin-right: 0px;
   padding: 0;
-  padding-top: 12px;
+  padding-top: 13px;
   background: #fff;
 }
 
@@ -103,15 +114,6 @@ p {
     margin: 0 auto;
 }
 
-#logo {
-  padding: 0;
-}
-
-#logo > img {
-  position: absolute;
-  height: 50px;
-}
-
 /*Column Seperators*/
 #viva-col-1, #viva-col-2, #viva-col-3, #viva-col-4, #viva-col-5, #viva-col-6  {
   position: relative;
@@ -122,7 +124,7 @@ p {
   box-shadow: -5px 0px 4px -2px rgba(94,94,94, 0.2);
 }
 
-.content {
+.content-home {
   height: 550px;
 }
 
@@ -178,7 +180,7 @@ p {
 }
 
 #box-col-1 {
- top: 180px;
+ top: 370px;
  background: #00aaa5;
 }
 
@@ -323,7 +325,17 @@ p {
   cursor: pointer;
 }
 
+/*Utbildning*/
+.content-ut {
+  height: 300px;
+}
+
+
 /*Career Page*/
+.content-karriar {
+  height: 450px;
+}
+
 .box-text-big {
   position: absolute;
   padding: 10px;
