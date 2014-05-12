@@ -179,6 +179,12 @@ p {
   text-decoration: underline;
 }
 
+.steps {
+  position:relative;
+  top: 10px;
+  left:30px;
+}
+
 #box-col-1 {
  top: 370px;
  background: #00aaa5;
@@ -349,6 +355,49 @@ p {
 /*  text-align: justify;*/
 }
 
+.steps {
+  position:relative;
+  margin-top: 20px;
+  left:40px;
+  margin-bottom: 10px;
+}
+
+#step-2 {
+  top:360px;
+  left:50px;
+}
+
+#step-3 {
+  top:240px;
+}
+
+#step-4 {
+  top:360px;
+  left:50px;
+
+}
+
+#arrow-top-teal {
+  position:absolute;
+  width:100px;
+  margin-top: 10px;
+  left:400px;
+}
+
+#arrow-top {
+  position:absolute;
+  width:100px;
+  margin-top: 14px;
+  left:400px;
+}
+
+#arrow-bottom {
+  position:absolute;
+  width:100px;
+  margin-top: 10px;
+  left:760px;
+}
+
 .karriar-title {
   padding-top: 10px;
   font-family: "SourceSansPro-Bold", Helvetica, Arial, sans-serif;
@@ -358,18 +407,25 @@ p {
 }
 
 #career-col-1 {
+  top: 210px;
 }
 
 #career-col-2 {
 }
 
 #career-col-3 {
+
 }
 
 #career-col-4 {
 }
 
 #career-col-5 {
+  top: 190px;
+}
+
+#step5-title {
+  margin-top: 40px;
 }
 
 /*Jobb*/
