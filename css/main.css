@@ -33,6 +33,10 @@ font-family: SourceSansPro-Light;
 src: url(../fonts/source-pro-sans/SourceSansPro-Light.ttf);
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 
 body {
@@ -66,6 +70,7 @@ p {
 
 /*Header*/
 #header-nav {
+  margin-bottom: 0;
   background: #fff;
 }
 
@@ -104,6 +109,16 @@ p {
   color: #5e5e5e;
 }
 
+/*Homepage*/
+
+#bg-wrap {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:700px;
+  background-image: url('../img/hospital_hallway.jpg');
+}
+
 .container {
    width: 1080px;
    max-width: none !important;
@@ -129,7 +144,7 @@ p {
 }
 
 .mt {
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 .box-small {
@@ -338,6 +353,21 @@ p {
 
 
 /*Career Page*/
+
+#bg-wrap-karriar {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:730px;
+/*  background-image: url('../img/hospital_hallway2.jpg');
+*/}
+
+#karriar-header {
+  margin-bottom: 10px;
+  text-align: center;
+  color:#5e5e5e;
+}
+
 .content-karriar {
   height: 450px;
 }
@@ -435,9 +465,10 @@ p {
 
 #arrow-down {
   display: block;
+  margin-top: 20px;
   margin-left: 47.5%;
   margin-right: 0;
-  background-image: url('../img/arrow_down_off.png');
+  background-image: url('../img/arrow_down_off_grey.png');
   width:50px;
   height: 31px;
   transition: ease-out;
@@ -446,6 +477,7 @@ p {
 
 #arrow-down:hover {
   display: block;
+  margin-top: 20px;
   margin-left: 47.5%;
   margin-right: 0;
   background-image: url('../img/arrow_down_on.png');
@@ -586,12 +618,44 @@ p {
   background-image: url('../img/portraits/masud_sq.png');
 }
 
+/*Footer*/
+
+.footer {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-karriar {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-text {
+  margin-top: 10px;
+  color:#5e5e5e;
+  font-size: 14px;
+}
+
+
 
 /************MEDIA QUERIES*********/
 
 @media (max-width:767px) {
   #logo > img{
-    height: 50px;
+    height: 32px;
   }
 }
 
